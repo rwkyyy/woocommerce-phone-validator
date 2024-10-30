@@ -42,6 +42,14 @@ if ( isset( $_SERVER['SERVER_NAME'] ) && strpos( sanitize_text_field( $_SERVER['
 
 define( 'WC_PV_ENVIRONMENT', $_wc_pv_env );
 
+
+//for HPOS compatibility.
+function declare_hpos_compatibility_for_plugin() {
+    add_filter( 'woocommerce_order_data_store_cpt_compatibility', '__return_true' );
+}
+
+add_action( 'init', 'declare_hpos_compatibility_for_plugin' );
+
 // for global option meta access :)
 // $wc_pv_option_meta = array();
 // custom fields names
