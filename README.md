@@ -2,20 +2,18 @@
 
 **Author:** __Preciousomonze__
 
-**Contributors:** __Helgatheviking 🤾🏻‍♀️__
+**Contributors:** __Helgatheviking 🤾🏻‍♀️__,__rwky__
 
-
-**Donate link:** I do not mind a token for ordering Pancakes 🥞, so you can <a href="https://rave.flutterwave.com/pay/preciousomonze" target="_blank">__Drop something for your boy 🤓 🥳__</a>
 
 **Tags:** woocommerce, preciousomonze plugin, phone validator, intlTelInput, woocommerce phone validator
 
 **Requires at least:** 5.0
 
-**Tested up to:** 5.4
+**Tested up to:** 6.8
 
-**Requires PHP:** 5.6
+**Requires PHP:** 7.4
 
-**Stable tag:** 1.2.1
+**Stable tag:** 1.3.0
 
 **License:** GPLv3 or later
 
@@ -89,6 +87,8 @@ Yes you can, check out the [github repo here](https://github.com/Preciousomonze/
 * Fix: Error Messages not re-rendering due to logic error(Thanks to Sylvain): https://wordpress.org/support/topic/error-messages-are-not-refreshed-in-case-of-successive-errors-on-checkout-page/
 ### 1.2.1 - 28/07/2020
 * Update: Adjusted stable tag, Github Actions wahala and struggle, some svn structure clean up.
+### 1.3.0 - 11/11/2025
+* New: Added HPOS compatibility layer
 
 ## Screenshots ##
 
